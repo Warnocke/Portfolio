@@ -28,7 +28,7 @@ const projects: Project[] = [
         link: "https://github.com/Aydenalv6282/Martian-Pathfinders",
         status: "Completed Aug 2025"
     },
-    // Combine homeworks 4 & 6 from linear into a TSNE CNNs and CIFAR10 project, and homework 5 as SVD exploration, and prolly minesweeper
+    
     // {
     //     IMG: "",
     //     title: "",
@@ -42,9 +42,9 @@ const projects: Project[] = [
 
 export default function Projects() {
     return(
-        <div className="pt-32 bg-[#252525] overflow-hidden">
+        <div id="Projects" className="pt-24 bg-[#252525] overflow-hidden">
             <div className="justify-items-center">
-                <h1 className="text-white text-5xl font-bold mb-6 underline decoration-thickness-8 underline-offset-8">Projects</h1>
+                <h1 className="text-white text-4xl md:text-5xl mb-12 text-center text-gray-900">Projects</h1>
             </div>
             <div className="grid grid-cols-3 gap-10 px-24 py-10">
                 {projects.map((project) => (

@@ -2,9 +2,9 @@
 
 export default function About(){
     return(
-        <section className="flex flex-row items-center gap-12 px-24 py-20 pt-32 bg-[#E4E4E4] overflow-hidden">
+        <section id="about" className="flex flex-row items-center gap-12 px-24 py-20 pt-32 bg-[#E4E4E4] overflow-hidden">
             <div className="flex-1">
-                <h1 className="text-5xl font-bold mb-6 underline decoration-thickness-8 underline-offset-8">About Me</h1>
+                <h1 className="text-4xl md:text-5xl mb-12 text-center text-gray-900">About Me</h1>
                 <p className="text-lg leading-relaxed">
                     I'm a computer science major at the University of Florida. Through my studies, I’ve developed a strong foundation in full-stack development, networking, and machine learning. I’m especially passionate about the intersection of math and programming, and I enjoy exploring problems that bring the two together. I’ve always loved math, and being able to incorporate or explore mathematical concepts in my work never fails to put a smile on my face.<br></br><br></br>
                     My hobbies outside of coding are anything and everything music. I can play three instruments, and have been lucky enough to see over 20 concerts so far! My favorite bands at the moment are Geese, Wednesday, and Pavement- but I really do enjoy all music.
